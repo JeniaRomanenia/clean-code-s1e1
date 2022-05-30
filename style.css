@@ -5,24 +5,24 @@
   font-family: Lato, sans-serif;
 }
 
-.info {
+.header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
 
-.info-img {
+.header__img {
   width: 100%;
 }
 
-.info .more-info {
+.header__link {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
 
-.info { 
+.header { 
   text-align: center;
 }
 }
