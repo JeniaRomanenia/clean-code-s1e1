@@ -36,7 +36,7 @@
 .task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .task-wrapper {
@@ -114,7 +114,6 @@
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -136,7 +135,7 @@
 }
 
 .list-item > .task-data {
-  width: 226px
+  width: 226px;
 }
 
 .button-delete .delete-icon {
@@ -151,18 +150,18 @@
 
 /* Completed */
 #completed-tasks .label-task {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 .list .list-item .task-data {
-  display: none
+  display: none;
 }
 
 .list .edit-mode .task-data {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .list .edit-mode .label-task {
